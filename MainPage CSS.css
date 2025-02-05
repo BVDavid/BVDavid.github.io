@@ -1,0 +1,261 @@
+body {
+    width: 100%;
+    max-width: 1600px;
+    min-height: 200vh;
+    background-image: linear-gradient(to right, #FDFEFE, #EDF7FE, #DBDFFC, #D8CFF8, #E6CDF2,#FFE1E7,#FFF6EF,#FEFEFE );
+    margin: 0;
+}
+
+.navbar{
+    top : 0;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    position: sticky !important;
+    width: 100%;
+    height: auto;
+    max-height: 100px;
+    background-color: rgba(255, 255, 255, 0.6);
+    margin-top: 0;
+    z-index: 1000;
+    font-family: "Manrope", Arial, sans-serif;
+}
+
+.contact-button{
+    color: white !important;
+    background-color: black;
+    border-radius: 100px;
+    height: auto;
+    max-height: 60px;
+    line-height: 45px;
+    padding-left: 20px;
+    padding-right: 20px;
+    font-weight: bold;
+}
+
+.main-photo-container{
+    display: flex;
+    flex-direction: row;
+}
+
+.main-photo{
+    border-radius: 50%;
+    max-width: 150px;
+    margin-left: 12%;
+    margin-top: 4.6%;
+}
+
+.frontend-button{
+    order: 2;
+    margin-top: 5.8%;
+    margin-left: 47%;
+    max-height: 32px;
+    background-color: #3A87F7;
+    border: none;
+    color: white;
+    font-weight: bold;
+    border-radius: 100px;
+    padding-left: 1%;
+    padding-right: 1%;
+}
+
+.h1plusButon{
+    display: flex;
+}
+
+.middle-row-button{
+    order: 2;
+    margin-top: 4.3%;
+    margin-left: 31%;
+    min-height: 30px;
+    max-height: 32px;
+    border: none;
+    color: white;
+    font-weight: bold;
+    border-radius: 100px;
+    padding-left: 1%;
+    padding-right: 1%;
+    background-color: #EA6635;
+}
+
+.h2plusButton{
+    display: flex;
+}
+
+.last-row-button{
+    order: 2;
+    margin-top: 0;
+    margin-left: 39%;
+    min-height: 26px;
+    max-height: 30px;
+    border: none;
+    color: white;
+    font-weight: bold;
+    border-radius: 100px;
+    padding-left: 1%;
+    padding-right: 1%;
+    background-color: #861AF5;
+}
+
+.name{
+    margin-top: 1.9%;
+    margin-left: 10.5%;
+    font-size: 22px;
+    color: #878686;
+    text-decoration: none;
+    font-weight: 50;
+}
+
+.firstName{
+    font-weight: bold;
+    color: black;
+}
+
+.nav-buttons{
+    display: flex;
+    font-size: 18px;
+    line-height: 80px;
+    margin-left: 40%;
+    align-items: center;
+    gap: 30px;
+    color: black;
+    font-weight: 550;
+}
+
+.nav-buttons a{
+    color: black;
+    text-decoration: none;
+}
+
+.description-container {
+    margin-left: 11.5%;
+    font-family: "Manrope", Arial, sans-serif;
+    margin-bottom: 5%;
+}
+
+.description-container h1{
+    font-size: 40px;
+    font-weight: 1000;
+}
+
+.description-container h2{
+    font-size: 32px;
+    font-weight: 600;
+    color: #878686;
+    line-height: 60%;
+}
+
+.fullstack{
+    font-weight: 1000;
+    color: black;
+}
+
+.content-section h1{
+    margin-left: 11.5%;
+    font-family: "Manrope", Arial, sans-serif;
+    font-weight: 1000;
+    font-size: 37px;
+}
+
+.content-section h4{
+    margin-left: 11.5%;
+    font-family: "Manrope", Arial, sans-serif;
+    font-weight: 200;
+    font-size: 18px;
+    color: #636363;
+    margin-bottom: 4%;
+}
+
+.project-section{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    font-family: "Manrope", Arial, sans-serif;
+    text-align: center;
+}
+
+.project-section h2{
+    font-size: 24px;
+}
+
+.project-section h4{
+    margin-left: 0%;
+    font-size: 17px;
+}
+
+.project1{
+    padding-left: 1%;
+    margin-left: 11.2%;
+    background-image: url("project1PhotoNoBG.png");
+    background-repeat: no-repeat;
+    background-size: 100% 75%;
+    background-position: center 75%;
+    width: 40%;
+    min-height: 500px;
+    height: auto;
+    border-radius: 4%;
+    background-color: rgba(255, 255, 255, 0.4);
+}
+
+.project2{
+    padding-left: 1%;
+    margin-left: 1.5%;
+    background-image: url("project2NoBGTablet.png");
+    background-repeat: no-repeat;
+    background-size: 120% 85%;
+    background-position: center 75%;
+    width: 33.6%;
+    min-height: 500px;
+    height: auto;
+    border-radius: 4%;
+    background-color: rgba(255, 255, 255, 0.4);
+}
+
+.project3{
+    padding-left: 1%;
+    margin-top: 1.5%;
+    margin-left: 11.2%;
+    background-image: url("project3Picture.png");
+    background-repeat: no-repeat;
+    background-size: 100% 92%;
+    background-position: center 180%;
+    width: 77.1%;
+    min-height: 500px;
+    height: auto;
+    border-radius: 4%;
+    background-color: rgba(255, 255, 255, 0.4);
+}
+
+
+
+.project3 h4{
+    margin-bottom: 0%;
+}
+
+.footer{
+    background-color: black;
+    width: 100%;
+    min-height: 288px;
+    border-top-left-radius: 32px;
+    border-top-right-radius: 32px;
+    color: white;
+    bottom: 0;
+}
+
+.footer h3{
+    font-weight: bold;
+    text-align: center;
+    padding-top: 6.2%;
+    margin-bottom: 67px;
+    line-height: 0;
+    font-size: 38px;
+    font-family: "DM Sans", "DM Sans Placeholder", sans-serif;
+}
+
+.footer h2{
+    font-family: "Inter", sans-serif;
+    text-align: center;
+    line-height: 10px;
+    font-weight: 100;
+    font-size: 22px;
+}
