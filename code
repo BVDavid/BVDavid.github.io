@@ -1,7 +1,0 @@
-<a href="#"><img class = "github-button" src="logo-github.jpeg" alt="GitHub Logo"></a> <!-- Github logo -->
-
-.github-button{
-    max-width: 35px;
-    height: auto;
-    max-height: 25px;
-}

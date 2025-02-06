@@ -279,7 +279,7 @@ body {
 .project1{
     padding-left: 1%;
     margin-left: 11.2%;
-    background-image: url("project1PhotoNoBG.png");
+    background-image: url("src/project1PhotoNoBG.png");
     background-repeat: no-repeat;
     background-size: 100% 75%;
     background-position: center 75%;
@@ -293,7 +293,7 @@ body {
 .project2{
     padding-left: 1%;
     margin-left: 1.5%;
-    background-image: url("project2NoBGTablet.png");
+    background-image: url("src/project2NoBGTablet.png");
     background-repeat: no-repeat;
     background-size: 120% 85%;
     background-position: center 75%;
@@ -308,7 +308,7 @@ body {
     padding-left: 1%;
     margin-top: 1.5%;
     margin-left: 11.2%;
-    background-image: url("project3Picture.png");
+    background-image: url("src/project3Picture.png");
     background-repeat: no-repeat;
     background-size: 100% 92%;
     background-position: center 180%;
